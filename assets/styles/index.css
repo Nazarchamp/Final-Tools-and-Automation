@@ -1,5 +1,4 @@
 @import "base.css";
-
 /* Hero Banner Styling -------------------*/
 .hero-banner {
     background: #000 url("../images/banner-back.jpg") center center / cover no-repeat;
@@ -75,4 +74,33 @@ nav ul li a:hover {
     margin-left: 80px;
     flex-direction: column;
     width: 70%;
+}
+
+/* Typing Styling */
+#text {
+    display: inline-block;
+    vertical-align: middle;
+    color: #faed24;
+    letter-spacing: 2px;
+    height: 87.33px;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+#cursor {
+    display: inline-block;
+    vertical-align: middle;
+    width: 3px;
+    height: 64px;
+    background-color: #faed24;
+    animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+    from, to {
+        background-color: transparent
+    }
+    50% {
+        background-color: #faed24;
+    }
 }
