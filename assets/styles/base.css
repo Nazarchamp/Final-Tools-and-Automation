@@ -3,6 +3,13 @@
 @font-face {font-family: 'Nunito Sans Lighter'; src: url(../fonts/Nunito_Sans/NunitoSans-Regular.ttf)}
 @font-face {font-family: 'Nunito Sans'; src: url(../fonts/Nunito_Sans/NunitoSans-Bold.ttf)}
 @font-face {font-family: 'Heaviest Nunito Sans'; src: url(../fonts/Nunito_Sans/NunitoSans-ExtraBold.ttf)}
+
+:root {
+    --background-color: #593d55;
+    --reduced-background-color: #593d5588;
+    --primary-color: #faed24;
+}
+
 * {
     margin: 0;
     border: 0;
