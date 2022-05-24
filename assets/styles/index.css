@@ -106,7 +106,7 @@ nav ul li a:hover {
     margin: 0 auto;
     margin-left: 0;
     padding: 60px 0;
-    padding-bottom: 0;
+    padding-bottom: 0px;
 }
 
 .full-main {
@@ -194,8 +194,12 @@ footer {
     height: 120px;
     background-color: white;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     display: flex;
+}
+
+footer p{
+    margin-left: 100px;
 }
 
 p{
