@@ -1,7 +1,7 @@
 const sentences = [
     "Through Email.",
     "In Person.",
-    "Via Our Website"
+    "Via Our Website."
 ];
 
 // Current sentence being processed
