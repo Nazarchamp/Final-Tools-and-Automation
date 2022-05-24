@@ -5,13 +5,75 @@
   <meta charset="utf-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <title>Graphic Gals | Contact</title>
+  <title>Graphic Gals | Home</title>
   <link href="assets/images/favicon.jpg?v=2" rel="shortcut icon" type="image/x-icon">
   <link as="font" href="assets/fonts/Nunito_Sans/NunitoSans-Bold.ttf" rel="preload" type="font/ttf">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+  <script defer src="assets/scripts/fade.js"></script>
+  <script defer src="assets/scripts/typer2.js"></script>
+  <link href="assets/styles/index.css" rel="stylesheet">
+  <link href="assets/styles/contact.css" rel="stylesheet">
 </head>
 
 <body>
+<div class="hero-banner">
+  <div class="overlay">
+    <div class="word-container">
+      <h1>Get in Touch!</h1>
+      <div class="descriptor-container">
+        <div id="text"></div>
+        <div id="cursor"></div>
+      </div>
+    </div>
+
+    <div class="nav-container">
+      <nav>
+        <ul>
+          <li><a href="index.html">Welcome</a></li>
+          <li><a href="index.html#full-main">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+<div class="full-main appear3">
+  <div class="main-article">
+    <div class="side-links">
+      <nav>
+        <ul>
+          <li><p>Socials</p></li>
+          <li><a href="https://twitter.com/mayor_kid" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/nazarviznytsya/" target="_blank"><i
+                  class="fab fa-instagram"></i></a></li>
+          <li><a href="https://github.com/Nazarchamp" target="_blank"><i class="fab fa-github"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <article class="contact-form appear4">
+        <div>
+          <h2 class="heading">Contact Us</h2>
+        </div>
+
+        <form id="contact-form" method="post">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+          <label for="message">Message</label>
+          <textarea rows="6" placeholder="Your Message" id="message" name="message" required></textarea>
+          <!--<a href="javascript:void(0)">--><button type="submit" id="submit" name="submit">Send</button><!--</a>-->
+
+        </form>
+      </article>
+    </div>
+  </div>
+
+  <footer>
+    <p class="copyright">&copy; 2022 Web Dev Company</p>
+  </footer>
+</div>
 </body>
 
 </html>
