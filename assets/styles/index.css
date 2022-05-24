@@ -47,6 +47,10 @@ nav ul{
     padding-bottom: 40px;
 }
 
+.main-article nav ul{
+    margin-left: 0;
+}
+
 nav{
     text-align: right;
     height: 100%;
@@ -101,7 +105,7 @@ nav ul li a:hover {
     width: 60vw;
     margin: 0 auto;
     margin-left: 0;
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
 .heading {
@@ -120,6 +124,52 @@ nav ul li a:hover {
 
 .article-p{
     color: var(--background-color)
+}
+
+.side-links nav{
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.side-links ul{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    padding-top: 60px;
+    align-items: center;
+}
+
+.side-links nav li{
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.side-links nav li + li {
+    margin-top: 20px;
+}
+
+.side-links i{
+    text-align: center;
+    font-size: 20px;
+    color: var(--background-color);
+}
+
+.side-links p{
+    color: var(--background-color);
+}
+
+.main-article{
+    display: flex;
+    margin: 0 80px;
+    width: calc(100vw - 160px);
+}
+
+p {
+    margin-top: 10px;
+    line-height: 1.5;
+    font-size: 17px;
 }
 
 @keyframes blink {
