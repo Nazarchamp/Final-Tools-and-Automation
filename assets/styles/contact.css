@@ -1,0 +1,59 @@
+.hero-banner {
+    background: #000 url("../images/contact-banner.jpg") center center / cover no-repeat;
+}
+
+form {
+    width: 31.25rem;
+    position: relative;
+    padding: 1rem 0;
+}
+
+input, textarea, label {
+    width: 35vw;
+    display: block;
+}
+
+p, placeholder, input, textarea {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: var(--background-color);
+}
+
+input::placeholder, textarea::placeholder {
+    color: var(--background-color);
+}
+
+input, textarea {
+    color: var(--background-color);
+    font-weight: 500;
+    background: white;
+    border: none;
+    border-bottom: 1px solid var(--background-color);
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: 300;
+    background: #faed24;
+    color: black;
+    width: 10rem;
+    height: 2.25rem;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+input:hover, textarea:hover, button:hover {
+    opacity: 0.5;
+}
+
+button:active {
+    opacity: 0.8;
+}
