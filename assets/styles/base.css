@@ -21,7 +21,7 @@
     box-shadow: none;
     box-sizing: border-box;
     vertical-align: baseline;
-    transition: all .2s ease-in-out;
+    transition: none;
 }
 
 main{
