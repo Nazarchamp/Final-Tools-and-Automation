@@ -96,6 +96,32 @@ nav ul li a:hover {
     animation: blink .75s step-end infinite;
 }
 
+.container {
+    position: relative;
+    width: 60vw;
+    margin: 0 auto;
+    margin-left: 0;
+    padding: 40px 0;
+}
+
+.heading {
+    text-align: left;
+    font-size: 52px;
+    font-weight: 400;
+    color: var(--background-color)
+}
+
+.article-p {
+    margin-top: 10px;
+}
+.article-p {
+    margin-bottom: 10px;
+}
+
+.article-p{
+    color: var(--background-color)
+}
+
 @keyframes blink {
     from, to {
         background-color: transparent
