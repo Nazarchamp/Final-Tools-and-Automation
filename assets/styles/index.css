@@ -109,6 +109,22 @@ nav ul li a:hover {
     padding-bottom: 0;
 }
 
+.full-main {
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+}
+
+.full-main.inview {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
 .heading {
     text-align: left;
     font-size: 52px;
